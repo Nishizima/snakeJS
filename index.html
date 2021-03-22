@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>SnakeJS</title>
+  </head>
+  <body>
+    <header>
+        <div class="container clearfix">
+            <h1 id="">
+                SnakeJS
+            </h1>
+            
+        </div>
+    </header>
+        
+
+        <div class="container clearfix">
+            <div class="row">
+                <div class="col border bg-light" id=divCanvas>
+                    <canvas id="snakeGame" width="600" height="400"></canvas>
+                </div>
+                <div class="col border bg-light">
+                    <div class="row justify-content-center align-self-center">
+                        <div class="col-5">
+                            <h1>Game Time: </h1>
+                        </div>
+                        <div class="col">
+                            <span id="gameTime" class="h3">00:00</span>
+                        </div>
+                         
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center align-self-center">
+                            <div class="col-5">
+                                <h1>Points: </h1>
+                            </div>
+                            <div class="col">
+                                <span id="score" class="h3">0</span>
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+  </body>
+  <footer>
+    <div class="container">
+        <ul class="nav justify-content-end">
+            
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">developed by Nishizima</a>
+            </li>
+          </ul>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="snake.js"></script>
+</html>
